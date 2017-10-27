@@ -1,0 +1,81 @@
+<html>
+	<head>
+		<title>The PURE.CSS Grid</title>
+		<meta name = "viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel = "stylesheet" href = "pure-release-1.0.0/pure-min.css">
+		<link rel = "stylesheet" href = "pure-release-1.0.0/grids-responsive-min.css">
+		
+		<style>
+			.grids-example {
+				background: rgb(250, 250, 250);
+				margin: 2em auto;
+				font-family: Consolas, 'Liberation Mono', Courier, monospace;
+				text-align: center;
+			}
+				
+			.grid-unit {
+				margin: 0.25em 0;
+				padding-left: 4.5em;
+			}
+			
+			.grid-unit .grid-unit-width {
+				font-family: Consolas, 'Liberation Mono', Courier, monospace;
+			}
+			
+			.grid-unit-bar {
+				height: 2em;
+				background: #888888;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div class = "grids-example">
+			<div class = "grid-unit pure-g">
+				<div class = "grid-unit-width pure-u">1-5</div>
+				<div class = "grid-unit-width-details pure-u-1">
+					<div class = "pure-g">
+						<div class = "grid-unit-bar pure-u-1-5"></div>
+					</div>
+				</div>
+			</div>
+			
+			<div class = "grid-unit pure-g">
+				<div class = "grid-unit-width pure-u">2-5</div>
+				<div class = "grid-unit-width-details pure-u-1">
+					<div class = "pure-g">
+						<div class = "grid-unit-bar pure-u-2-5"></div>
+					</div>
+				</div>
+			</div>
+			
+			<div class = "grid-unit pure-g">
+				<div class = "grid-unit-width pure-u">3-5</div>
+				<div class = "grid-unit-width-details pure-u-1">
+					<div class = "pure-g">
+						<div class = "grid-unit-bar pure-u-3-5"></div>
+					</div>
+				</div>
+			</div>
+			
+			<div class = "grid-unit pure-g">
+				<div class = "grid-unit-width pure-u">4-5</div>
+				<div class = "grid-unit-width-details pure-u-1">
+					<div class = "pure-g">
+						<div class = "grid-unit-bar pure-u-4-5"></div>
+					</div>
+				</div>
+			</div>
+			
+			<div class = "grid-unit pure-g">
+				<div class = "grid-unit-width pure-u">25-5</div>
+				<div class = "grid-unit-width-details pure-u-1">
+					<div class = "pure-g">
+						<div class = "grid-unit-bar pure-u-5-5"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
