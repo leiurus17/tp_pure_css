@@ -1,0 +1,68 @@
+<html>
+	<head>
+		<title>The PURE.CSS Grid</title>
+		<meta name = "viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel = "stylesheet" href = "pure-release-1.0.0/pure-min.css">
+		<link rel = "stylesheet" href = "pure-release-1.0.0/grids-responsive-min.css">
+	</head>
+	
+	<body>
+		<form class = "pure-form pure-form-aligned">
+			<fieldset>
+				<div class = "pure-control-group">
+					<label for = "name">Username</label>
+					<input id = "name" type = "text" placeholder = "Username" required>				
+				</div>
+				
+				<div class = "pure-control-group">
+					<label for = "email">Email</label>
+					<input id = "email" type = "text" placeholder = "Email Address" required>				
+				</div>
+				
+				<div class = "pure-control-group">
+					<label for = "comments">Comments</label>
+					<input id = "comments" type = "text" placeholder = "Comments" required>				
+				</div>
+				
+				<div class = "pure-controls">
+					<label for = "married" class = "pure-checkbox">
+						<input id = "married" type = "checkbox">
+						Married
+					</label>
+					
+					<br />
+					
+					<label for = "single" class = "pure-checkbox">
+						<input id = "single" type = "checkbox" checked = "checked">
+						Single
+					</label>
+					
+					<br />
+					
+					<label for = "dontknow" class = "pure-checkbox">
+						<input id = "dontknow" type = "checkbox" disabled>
+						Don't know (Disabled)
+					</label>				
+				</div>
+				
+				<div class = "pure-controls">
+					<label for = "male" class = "pure-radio">
+						<input id = "male" type = "radio" name = "gender" value = "male" checked>
+						Male
+					</label>
+					
+					<label for = "female" class = "pure-radio">
+						<input id = "female" type = "radio" name = "gender" value = "female">
+						Female
+					</label>
+					
+					<label for = "dontknow2" class = "pure-radio">
+						<input id = "dontknow2" type = "radio" name = "gender" value = "dontknow2" disabled>
+						Don't know (Disabled)
+					</label>
+				</div>
+			</fieldset>
+		</form>
+	</body>
+</html>
